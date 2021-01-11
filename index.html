@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Uservice Home</title>
+</head>
+<body>
+    <nav>
+        <div class="wrapper-nav clearfix">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.png" alt="Logo"></a>
+            </div>
+            <div class="nav-menu">
+                <button class="drop" id="dropImage" onclick="navBarButton()"></button>
+                <div class="menu" id="menuDrop">
+                    <a href="#login" class="masuk" id="lgn">Masuk</a>
+                    <a href="pages/daftar.html">Gabung Mitra</a>
+                    <a href="#layanan">Layanan</a>
+                    <a href="pages/tentang.html">Tentang Kami</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="tagline">
+            <h2>Uangkan Keterampilanmu di</h2>
+            <h1>Uservice.</h1>
+            <p>Platformnya Para Freelancer</p>
+        </div>
+        <img src="image/header-home.png" alt="gambar1">
+    </header>
+    <main>
+        <div class="layanan" id="layanan">
+            <h1>Layanan Kami</h1>
+            <div class="container-card">
+                <a href="pages/repair-page.html">
+                    <div class="card">
+                        <div class="img-card">
+                            <img src="image/repair.png" alt="repair">
+                        </div>
+                        <h2>Repair</h2>
+                        <p>Solusi terbaik untuk memperbaiki perangkatmu yang rusak dengan mudah dan cepat disini.</p>
+                    </div>
+                </a>
+                <a href="pages/design-page.html">
+                    <div class="card" id="coba">
+                        <div class="img-card">
+                            <img src="image/design.png" alt="design">
+                        </div>
+                        <h2>Design</h2>
+                        <p>Serahkan keperluan desain kalian kepada mitra kami. Temukan desainer-desainer handal disini.</p>
+                    </div>
+                </a>
+                <a href="pages/photovideo-page.html">
+                    <div class="card">
+                        <div class="img-card">
+                            <img src="image/foto.png" alt="foto">
+                        </div>
+                        <h2>Photo & Video</h2>
+                        <p>Abadikan moment terindah dalam hidup anda melalui layanan foto dan video dari mitra kami.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="keunggulan">
+            <h1>Mengapa Pilih Uservice ?</h1>
+            <div class="wrapper-content ">
+                <div class="content-benefit clearfix">
+                    <div class="img-benefit">
+                        <img src="image/benefit1.jpg" alt="benefit1">
+                    </div>
+                    <div class="text-benefit">
+                        <h2>Mitra Unggulan</h2>
+                        <p>Profesional mitra kami tidak perlu diragukan lagi. Mitra kami telah terjamin pengalaman nya, tidak main-main dalam pengerjaannya. Dijamin pasti hasilnya akan sesuai dengan keinginan anda.</p>
+                    </div>
+                </div>
+                <div class="content-benefit clearfix">
+                    <div class="img-benefit">
+                        <img src="image/benefit2.jpg" alt="benefit2">
+                    </div>
+                    <div class="text-benefit">
+                        <h2>Proses Cepat</h2>
+                        <p>Tak perlu menunggu terlalu lama karena kami tau menunggu itu capek. Percayakan saja pada mitra kami agar selesai sesuai dengan yang anda mau.</p>
+                    </div>
+                </div>
+                <div class="content-benefit clearfix">
+                    <div class="img-benefit">
+                        <img src="image/benefit3.jpg" alt="benefit3">
+                    </div>
+                    <div class="text-benefit">
+                        <h2>Mudah dalam Pemesanan</h2>
+                        <p>Bingung cara memesan nya? jannga khawatir, Uservice memberikan kemudahan sedari awal memilih mitra sampai pada akhir pemesanan.</p>
+                    </div>
+                </div>
+                <div class="content-benefit clearfix" style="margin-bottom: 0;">
+                    <div class="img-benefit">
+                        <img src="image/benefit4.jpg" alt="benefit4">
+                    </div>
+                    <div class="text-benefit">
+                        <h2>Harga Terjangkau</h2>
+                        <p>Jangan takut masalah harga di uservice. Kami disini menawarkan harga yang sangat bervariasi, mulai dari kaki lima hingga bintang lima.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="guide clearfix">
+            <h1>How to Use</h1>
+            <div class="wrapper-guide clearfix">
+                <div class="guide-box">
+                    <img src="image/use.png" alt="guide">
+                </div>
+                <div class="guide-text">
+                    <ol>
+                        <li class="step"><p>Pilih layanan yang dibutuhkan pada bagian layanan.</p></li>
+                        <li class="step"><p>Pilih sub layanan yang tersedia.</p></li>
+                        <li class="step"><p>Lihat dan pilih mitra yang tersedia.</p></li>
+                        <li class="step"><p>Mengisi form pemesanan layanan.</p></li>
+                        <li class="step"><p>Tunggu mitra menghubungi anda.</p></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="join">
+            <div class="wrapper-join clearfix">
+                <div class="daftar">
+                    <h1>Bergabunglah bersama <br>KAMI.</h1>
+                    <a href="pages/daftar.html">Daftar</a>                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="login" class="overlay">
+        <div class="login-popup">
+            <a href="#close">
+                <div class="close">&times</div>
+            </a>
+            <div class="wrap-login">
+                <img src="image/logo.png" alt="logo">
+                <h1>Login Uservice</h1>
+                <form class="form-input">
+                    <div class="input-box">
+                        <img src="image/email.png" alt="email">
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <img src="image/lock.png" alt="lock">
+                        <input type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="check clearfix">
+                        <div class="remember">
+                            <input type="checkbox">
+                            <label>Remember me</label>
+                        </div>
+                        <a href="#">Forgot your account?</a>
+                    </div>
+                    <input type="submit" value="Login" class="login-button">
+                    <a href="pages/daftar.html" class="regis-button-popup">Register</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper-foot">
+            <div class="foot-box foot-logo">
+                <a href="index.html"><img src="image/logo-putih.png" alt="logo"></a>
+                <p>Platformnya para Freelancer</p>
+            </div>
+            <div class="foot-box">
+                <h2>Layanan</h2>
+                <a href="pages/repair-page.html">Repair</a>
+                <br>
+                <a href="pages/design-page.html">Design</a>
+                <br>
+                <a href="pages/photovideo-page.html">Photo & Video</a>
+            </div>
+            <div class="foot-box">
+                <h2>Contact Us</h2>
+                <p>+62 877-3621-9785</p>
+                <p>+62 859-4302-5190</p>
+                <p>+62 895-0977-0811</p>
+            </div>
+            <div class="foot-box">
+                <h2>About Us</h2>
+                <a href="https://dinus.ac.id/mahasiswa/A11.2019.11758" target="_blank">Arsya Pristhi W</a>
+                <br>
+                <a href="https://dinus.ac.id/mahasiswa/A11.2019.11773" target="_blank">Louis Bayu K R</a>
+                <br>
+                <a href="https://dinus.ac.id/mahasiswa/A11.2019.11774" target="_blank">Luthfi Abdul K</a>
+            </div>
+        </div>
+        <hr>
+        <p style="font-size: 12px; margin-top: 10px;">Copyright &copy; 2020 Kelompok 5.</p> 
+    </footer>
+
+    <script>
+        function giveAOS(kelas, index, effect, duration = 500, delay = 100) {
+            kelas[index].setAttribute("data-aos", effect);
+            kelas[index].setAttribute("data-aos-duration", duration);
+            kelas[index].setAttribute("data-aos-delay", delay);
+        }
+        // AOS Effect Benefit
+        var benefit = document.getElementsByClassName("content-benefit");
+        for (i = 0; i < benefit.length; i++) {
+            if (i % 2 == 0) {
+                giveAOS(benefit, i, "fade-left", 800);
+            } else {
+                giveAOS(benefit, i, "fade-right", 800);
+            }
+        };
+        // AOS EFFECT CARD
+        var card = document.getElementsByClassName("card");
+        for (i = 0; i < card.length; i++) {
+            giveAOS(card, i, "fade-up", 500, 200 * i);
+        }
+        // AOS Step Use
+        giveAOS(document.getElementsByClassName("guide-box"), 0, "zoom-in", 1000);
+        var step = document.getElementsByClassName("step");
+        for (i = 0; i < step.length; i++) {
+            giveAOS(step, i, "fade-left", 400, 200 * i);
+        }
+        // AOS Gabung
+        giveAOS(document.getElementsByClassName("join"), 0, "zoom-in", 800, 300);
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
